@@ -9,13 +9,14 @@ typedef struct {
 	LVBoolean status;
 	int32_t code;
 	LStrHandle source;
-} Cluster;
+	} TD1;
+
 
 /*!
  * json
  */
-int32_t __cdecl json(char Command[], Cluster *ErrorIn, char Response[], 
-	Cluster *ErrorOut, int32_t len);
+void __cdecl json(char Command[], TD1 *ErrorIn, char Response[], 
+	TD1 *ErrorOut, int32_t len);
 
 MgErr __cdecl LVDLLStatus(char *errStr, int errStrLen, void *module);
 
