@@ -266,8 +266,17 @@
 				<Item Name="Wait for RQS.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Wait for RQS.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="CSMinfo.ctl" Type="VI" URL="../exUtulities/GERMAN/GermanInfo/data/CSMinfo.ctl"/>
 			<Item Name="HttpRequestHelper.dll" Type="Document" URL="../../MOKO_SE/Lib/HttpRequestHelper.dll"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="mscorlib" Type="VI" URL="mscorlib">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Select_actual_values.vi" Type="VI" URL="../exUtulities/CSM MOSCOW/CSMinfo/data/Select_actual_values.vi"/>
+			<Item Name="Select_actual_values.vi" Type="VI" URL="../exUtulities/GERMAN/GermanInfo/data/Select_actual_values.vi"/>
+			<Item Name="System.Management" Type="Document" URL="System.Management">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="version.dll" Type="Document" URL="version.dll">
