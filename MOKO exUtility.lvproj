@@ -13,151 +13,8 @@
 		<Item Name="exUtulities" Type="Folder" URL="../exUtulities">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="MOKO_LabViewLibrary" Type="Folder">
-			<Item Name="_MOKO_Global_Lib_for_install" Type="Folder">
-				<Item Name="jki_lib_flat_controls-1.0.0.7.vip" Type="Document" URL="../../MOKO_LabViewLibrary/_MOKO_Global_Lib_for_install/jki_lib_flat_controls-1.0.0.7.vip"/>
-				<Item Name="lava_lib_json_api-1.4.1.34.vip" Type="Document" URL="../../MOKO_LabViewLibrary/_MOKO_Global_Lib_for_install/lava_lib_json_api-1.4.1.34.vip"/>
-				<Item Name="lib_easy_http_client-1.0.0.3.vip" Type="Document" URL="../../MOKO_LabViewLibrary/_MOKO_Global_Lib_for_install/lib_easy_http_client-1.0.0.3.vip"/>
-				<Item Name="ni_lib_unicode-2.0.0.4.vip" Type="Document" URL="../../MOKO_LabViewLibrary/_MOKO_Global_Lib_for_install/ni_lib_unicode-2.0.0.4.vip"/>
-				<Item Name="openg.org_lib_openg_toolkit-4.0.1.9.vip" Type="Document" URL="../../MOKO_LabViewLibrary/_MOKO_Global_Lib_for_install/openg.org_lib_openg_toolkit-4.0.1.9.vip"/>
-			</Item>
-			<Item Name="MokoAPP" Type="Folder">
-				<Item Name="MAPP_StopOrExit.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoAPP/MAPP_StopOrExit.vi"/>
-				<Item Name="MAPP_Version.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoAPP/MAPP_Version.vi"/>
-			</Item>
-			<Item Name="MokoFile" Type="Folder">
-				<Item Name="MFLI_File_read.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoFile/MFLI_File_read.vi"/>
-				<Item Name="MFLI_File_write.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoFile/MFLI_File_write.vi"/>
-			</Item>
-			<Item Name="MokoHEX" Type="Folder">
-				<Item Name="MHEX_CrcCcittXmodem16bit.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoHEX/MHEX_CrcCcittXmodem16bit.vi"/>
-				<Item Name="MHEX_CUIT_CRC_CHECK.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoHEX/MHEX_CUIT_CRC_CHECK.vi"/>
-				<Item Name="MHEX_CUIT_CRC_OUT.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoHEX/MHEX_CUIT_CRC_OUT.vi"/>
-				<Item Name="MHEX_HexStringLength.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoHEX/MHEX_HexStringLength.vi"/>
-				<Item Name="MHEX_HexStringReadBuffer.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoHEX/MHEX_HexStringReadBuffer.vi"/>
-				<Item Name="MHEX_HexStringToWriteString.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoHEX/MHEX_HexStringToWriteString.vi"/>
-				<Item Name="MHEX_HexStringWrite.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoHEX/MHEX_HexStringWrite.vi"/>
-				<Item Name="MHEX_HexToHexString.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoHEX/MHEX_HexToHexString.vi"/>
-				<Item Name="MHEX_NumberToString.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoHEX/MHEX_NumberToString.vi"/>
-				<Item Name="MHEX_OneOrTwoHexToTwoHex.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoHEX/MHEX_OneOrTwoHexToTwoHex.vi"/>
-				<Item Name="MHEX_RegularExpressionByNandS.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoHEX/MHEX_RegularExpressionByNandS.vi"/>
-				<Item Name="MHEX_SplitStringByRegularExpression.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoHEX/MHEX_SplitStringByRegularExpression.vi"/>
-				<Item Name="MHEX_ThreeNumbersToThreeHexString.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoHEX/MHEX_ThreeNumbersToThreeHexString.vi"/>
-			</Item>
-			<Item Name="MokoHttp" Type="Folder">
-				<Item Name="HttpRequestHelper.dll" Type="Document" URL="../../MOKO_LabViewLibrary/MokoHttp/HttpRequestHelper.dll"/>
-				<Item Name="MHTTP_CS_Http_request.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoHttp/MHTTP_CS_Http_request.vi"/>
-			</Item>
-			<Item Name="MokoJSON" Type="Folder">
-				<Item Name="MJSN_DeleteHooks.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoJSON/MJSN_DeleteHooks.vi"/>
-				<Item Name="MJSN_DeleteMark.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoJSON/MJSN_DeleteMark.vi"/>
-				<Item Name="MJSN_escape_double_quotes.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoJSON/MJSN_escape_double_quotes.vi"/>
-				<Item Name="MJSN_FindArray.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoJSON/MJSN_FindArray.vi"/>
-				<Item Name="MJSN_FindParam.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoJSON/MJSN_FindParam.vi"/>
-				<Item Name="MJSN_FindParamWithDeletedMark.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoJSON/MJSN_FindParamWithDeletedMark.vi"/>
-			</Item>
-			<Item Name="MokoLowLevel" Type="Folder">
-				<Item Name="MokoCertifiedFiles" Type="Folder">
-					<Item Name="MCF_CheckRequest.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoCertifiedFiles/MCF_CheckRequest.vi"/>
-					<Item Name="MCF_Input.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoCertifiedFiles/MCF_Input.vi"/>
-					<Item Name="MCF_InputParsing (SubVI).vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoCertifiedFiles/MCF_InputParsing (SubVI).vi"/>
-					<Item Name="MCF_IsDLL (SubVI).vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoCertifiedFiles/MCF_IsDLL (SubVI).vi"/>
-					<Item Name="MCF_Output.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoCertifiedFiles/MCF_Output.vi"/>
-				</Item>
-				<Item Name="MokoDriverPreset" Type="Folder">
-					<Item Name="MDP_DO (SubVI).vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoDriverPreset/MDP_DO (SubVI).vi"/>
-					<Item Name="MDP_ReadPresetScript (SubVI).vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoDriverPreset/MDP_ReadPresetScript (SubVI).vi"/>
-					<Item Name="MDP_ScriptStringToArray (SubVI).vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoDriverPreset/MDP_ScriptStringToArray (SubVI).vi"/>
-				</Item>
-				<Item Name="MokoLowLevelFunction" Type="Folder">
-					<Item Name="MLLF_ArrayParametersToString (SubVI).vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_ArrayParametersToString (SubVI).vi"/>
-					<Item Name="MLLF_ChangeSettings.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_ChangeSettings.vi"/>
-					<Item Name="MLLF_CheckNumbersMatrix (SubVI).vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_CheckNumbersMatrix (SubVI).vi"/>
-					<Item Name="MLLF_ClearBuffer.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_ClearBuffer.vi"/>
-					<Item Name="MLLF_ClearTimeoutError.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_ClearTimeoutError.vi"/>
-					<Item Name="MLLF_CloseMouse.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_CloseMouse.vi"/>
-					<Item Name="MLLF_CommandDelimeter.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_CommandDelimeter.vi"/>
-					<Item Name="MLLF_CommandDelimeterSplit.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_CommandDelimeterSplit.vi"/>
-					<Item Name="MLLF_EsrCheck.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_EsrCheck.vi"/>
-					<Item Name="MLLF_ExpFormatToNumberWithUnits(SubVI).vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_ExpFormatToNumberWithUnits(SubVI).vi"/>
-					<Item Name="MLLF_FormatOutputValueWithUnits.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_FormatOutputValueWithUnits.vi"/>
-					<Item Name="MLLF_FormatStringValue.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_FormatStringValue.vi"/>
-					<Item Name="MLLF_FormatStringValueWithDot.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_FormatStringValueWithDot.vi"/>
-					<Item Name="MLLF_FormPathToSetFile (SubVI).vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_FormPathToSetFile (SubVI).vi"/>
-					<Item Name="MLLF_Init.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_Init.vi"/>
-					<Item Name="MLLF_InitCheckRequest.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_InitCheckRequest.vi"/>
-					<Item Name="MLLF_InitializeMouse.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_InitializeMouse.vi"/>
-					<Item Name="MLLF_InterfaceSelection.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_InterfaceSelection.vi"/>
-					<Item Name="MLLF_IsDLL.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_IsDLL.vi"/>
-					<Item Name="MLLF_LoadLastSetting.set" Type="Document" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_LoadLastSetting.set"/>
-					<Item Name="MLLF_LoadLastSetting.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_LoadLastSetting.vi"/>
-					<Item Name="MLLF_LoadLastSettingUtility.set" Type="Document" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_LoadLastSettingUtility.set"/>
-					<Item Name="MLLF_LoadLastSettingUtility.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_LoadLastSettingUtility.vi"/>
-					<Item Name="MLLF_MouseAcquire.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_MouseAcquire.vi"/>
-					<Item Name="MLLF_NumberWithUnitsToExpFormat(SubVI).vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_NumberWithUnitsToExpFormat(SubVI).vi"/>
-					<Item Name="MLLF_ParameterSelect.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_ParameterSelect.vi"/>
-					<Item Name="MLLF_ParsingIntArrayToString (SubVI).vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_ParsingIntArrayToString (SubVI).vi"/>
-					<Item Name="MLLF_ReadBuffer.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_ReadBuffer.vi"/>
-					<Item Name="MLLF_ReadBufferSTB.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_ReadBufferSTB.vi"/>
-					<Item Name="MLLF_ReplaceOneQuotesWithTwo.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_ReplaceOneQuotesWithTwo.vi"/>
-					<Item Name="MLLF_ReplaceTwoQuotesWithOne.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_ReplaceTwoQuotesWithOne.vi"/>
-					<Item Name="MLLF_SaveLastSetting.set" Type="Document" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_SaveLastSetting.set"/>
-					<Item Name="MLLF_SaveLastSetting.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_SaveLastSetting.vi"/>
-					<Item Name="MLLF_SaveLastSettingUtility.set" Type="Document" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_SaveLastSettingUtility.set"/>
-					<Item Name="MLLF_SaveLastSettingUtility.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_SaveLastSettingUtility.vi"/>
-					<Item Name="MLLF_ServiceRequestEnable.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_ServiceRequestEnable.vi"/>
-					<Item Name="MLLF_UnknownCommand(SubVI).vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_UnknownCommand(SubVI).vi"/>
-					<Item Name="MLLF_WaitServiceRequest.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_WaitServiceRequest.vi"/>
-					<Item Name="MLLF_WriteToBuffer.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_WriteToBuffer.vi"/>
-					<Item Name="MLLF_WriteToBufferWithDelay.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLevelFunction/MLLF_WriteToBufferWithDelay.vi"/>
-				</Item>
-				<Item Name="MokoLowLovelControl" Type="Folder">
-					<Item Name="MLLC_Boolean.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_Boolean.ctl"/>
-					<Item Name="MLLC_Command.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_Command.ctl"/>
-					<Item Name="MLLC_ConnectCluster.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_ConnectCluster.ctl"/>
-					<Item Name="MLLC_Delay.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_Delay.ctl"/>
-					<Item Name="MLLC_DriverName.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_DriverName.ctl"/>
-					<Item Name="MLLC_Error.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_Error.ctl"/>
-					<Item Name="MLLC_ErrorCode.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_ErrorCode.ctl"/>
-					<Item Name="MLLC_IgnoredCode.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_IgnoredCode.ctl"/>
-					<Item Name="MLLC_InterfaceKind.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_InterfaceKind.ctl"/>
-					<Item Name="MLLC_InterfaceSettings.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_InterfaceSettings.ctl"/>
-					<Item Name="MLLC_InterfaceType.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_InterfaceType.ctl"/>
-					<Item Name="MLLC_Mode.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_Mode.ctl"/>
-					<Item Name="MLLC_OpenedSession.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_OpenedSession.ctl"/>
-					<Item Name="MLLC_PrologixSettings.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_PrologixSettings.ctl"/>
-					<Item Name="MLLC_Request.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_Request.ctl"/>
-					<Item Name="MLLC_Response.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_Response.ctl"/>
-					<Item Name="MLLC_ResponseInit.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_ResponseInit.ctl"/>
-					<Item Name="MLLC_ResponseInitArray.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_ResponseInitArray.ctl"/>
-					<Item Name="MLLC_Rs232Settings.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoLowLevel/MokoLowLovelControl/MLLC_Rs232Settings.ctl"/>
-				</Item>
-			</Item>
-			<Item Name="MokoServer" Type="Folder">
-				<Item Name="MSRV_Concatenate_server_parameters_into_a_string.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoServer/MSRV_Concatenate_server_parameters_into_a_string.vi"/>
-				<Item Name="MSRV_ParsingInputJSON.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoServer/MSRV_ParsingInputJSON.vi"/>
-				<Item Name="MSRV_ParsingPluginInputJSON.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoServer/MSRV_ParsingPluginInputJSON.vi"/>
-			</Item>
-			<Item Name="MokoSTM" Type="Folder">
-				<Item Name="MokoClassicUtilitySTM" Type="Folder">
-					<Item Name="MCUS_ITEM.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoSTM/MokoClassicUtilitySTM/MCUS_ITEM.ctl"/>
-					<Item Name="MCUS_STM.ctl" Type="VI" URL="../../MOKO_LabViewLibrary/MokoSTM/MokoClassicUtilitySTM/MCUS_STM.ctl"/>
-					<Item Name="MCUS_STM.txt" Type="Document" URL="../../MOKO_LabViewLibrary/MokoSTM/MokoClassicUtilitySTM/MCUS_STM.txt"/>
-					<Item Name="MCUS_STM.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoSTM/MokoClassicUtilitySTM/MCUS_STM.vi"/>
-				</Item>
-			</Item>
-			<Item Name="MokoString" Type="Folder">
-				<Item Name="MSTR_Bool_To_String.vi" Type="VI" URL="../../MOKO_LabViewLibrary/MokoString/MSTR_Bool_To_String.vi"/>
-			</Item>
-			<Item Name="PicVi" Type="Folder">
-				<Item Name="MokoHEX.png" Type="Document" URL="../../MOKO_LabViewLibrary/PicVi/MokoHEX.png"/>
-				<Item Name="MokoLowLevel.png" Type="Document" URL="../../MOKO_LabViewLibrary/PicVi/MokoLowLevel.png"/>
-			</Item>
-			<Item Name="Find_float.vi" Type="VI" URL="../../MOKO_LabViewLibrary/Find_float.vi"/>
-			<Item Name="MHEX_command.txt" Type="Document" URL="../../MOKO_LabViewLibrary/MHEX_command.txt"/>
-			<Item Name="MJSN_command.txt" Type="Document" URL="../../MOKO_LabViewLibrary/MJSN_command.txt"/>
-			<Item Name="MLL_command.txt" Type="Document" URL="../../MOKO_LabViewLibrary/MLL_command.txt"/>
-			<Item Name="MSTM_command.txt" Type="Document" URL="../../MOKO_LabViewLibrary/MSTM_command.txt"/>
+		<Item Name="MOKO_LabViewLibrary" Type="Folder" URL="../../MOKO_LabViewLibrary">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -167,6 +24,30 @@
 				<Item Name="Array to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array to Array of VData__ogtk.vi"/>
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
 				<Item Name="Cluster to Array of VData__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Cluster to Array of VData__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (Bool)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (Bool)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (CDB)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (CSG)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (CTL-REF)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (CTL-REF)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (CXT)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (DBL)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (EXT)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (GEN-REF)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (GEN-REF)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (GObj-REF)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (GObj-REF)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (I8)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (I16)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (I32)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (I64)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (LVObject)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (Path)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (SGL)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (String)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (U8)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (U16)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (U32)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (U64)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (Variant)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel (VI-REF)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel (VI-REF)__ogtk.vi"/>
+				<Item Name="Conditional Auto-Indexing Tunnel__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Conditional Auto-Indexing Tunnel__ogtk.vi"/>
 				<Item Name="Get Array Element TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Array Element TD__ogtk.vi"/>
 				<Item Name="Get Data Name from TD__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name from TD__ogtk.vi"/>
 				<Item Name="Get Data Name__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Get Data Name__ogtk.vi"/>
@@ -237,22 +118,23 @@
 				<Item Name="JSON Array.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/JSON API/JSON Array/JSON Array.lvclass"/>
 				<Item Name="JSON GetSet.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/JSON API/Get Polymorphic/JSON GetSet.lvlib"/>
 				<Item Name="JSON Object.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/JSON API/JSON Object/JSON Object.lvclass"/>
-				<Item Name="JSON Running Mean.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/JSON API/JSON Running Mean/JSON Running Mean.lvclass"/>
 				<Item Name="JSON Scalar.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/JSON API/JSON Scalar/JSON Scalar.lvclass"/>
-				<Item Name="JSON Statistics.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/JSON API/Statistics/JSON Statistics.lvclass"/>
-				<Item Name="JSON support.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/JSON API/support/JSON support.lvlib"/>
 				<Item Name="JSON Value.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/JSON API/JSON Value/JSON Value.lvclass"/>
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="MoveMemory.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/fileVersionInfo.llb/MoveMemory.vi"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
+				<Item Name="TD_Get Array Information.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get Array Information.vi"/>
+				<Item Name="TD_Get Cluster Information.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get Cluster Information.vi"/>
 				<Item Name="TD_Get Enum Information.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get Enum Information.vi"/>
+				<Item Name="TD_Get MDT Information.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get MDT Information.vi"/>
 				<Item Name="TD_Get Ref Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Get Ref Info.vi"/>
 				<Item Name="TD_GetPStr.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_GetPStr.vi"/>
+				<Item Name="TD_Length.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Length.ctl"/>
+				<Item Name="TD_MDTFlavor.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_MDTFlavor.ctl"/>
 				<Item Name="TD_Refnum Kind.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/TD_Refnum Kind.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Type Code.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/Type Code.ctl"/>
@@ -297,7 +179,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{22655988-6E90-4ACE-BA96-E1CF037E73DA}</Property>
-				<Property Name="Bld_version.build" Type="Int">23</Property>
+				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">IZRCSMinfo.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../exUtilityCompiled_DLL/IZRCSMinfo.dll</Property>
@@ -392,7 +274,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7ED2FFA-2264-4BAA-A4A9-F2C94C348345}</Property>
-				<Property Name="Bld_version.build" Type="Int">24</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CSM_GNSS.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../exUtilityCompiled_DLL/CSM_GNSS.dll</Property>
@@ -490,7 +372,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3DC1A958-AE68-4890-9394-E1FF1E74F2D4}</Property>
-				<Property Name="Bld_version.build" Type="Int">24</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CSMinfo.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../exUtilityCompiled_DLL/CSMinfo.dll</Property>
@@ -583,7 +465,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{743800ED-C0F4-4647-9B50-D2A60F63A3AD}</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">exUtility.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../exUtilityCompiled_DLL/exUtility.dll</Property>
@@ -684,7 +566,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6409C906-CFAB-4E9F-94C9-6CF536953C57}</Property>
-				<Property Name="Bld_version.build" Type="Int">26</Property>
+				<Property Name="Bld_version.build" Type="Int">29</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Info.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../exUtilityCompiled_DLL/Info.dll</Property>
@@ -788,7 +670,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3C61B1AD-CD6F-47C4-8A83-B76FCC2E8B4A}</Property>
-				<Property Name="Bld_version.build" Type="Int">27</Property>
+				<Property Name="Bld_version.build" Type="Int">28</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PressureGauge.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../exUtilityCompiled_DLL/PressureGauge.dll</Property>
@@ -895,7 +777,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8A6140C6-CB39-4AAA-ABA4-76A3314E843F}</Property>
-				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_version.build" Type="Int">29</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PressureGaugeWithSmallWindow.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../exUtilityCompiled_DLL/PressureGaugeWithSmallWindow.dll</Property>
@@ -1005,7 +887,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AB55525B-A378-4C26-8C7D-00796E20EFFE}</Property>
-				<Property Name="Bld_version.build" Type="Int">29</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TLM.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../exUtilityCompiled_DLL/TLM.dll</Property>
@@ -1118,7 +1000,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{58A49BC3-DC87-4918-8E18-D8BA0203F8A7}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GermanInfo.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../exUtilityCompiled_DLL/GermanInfo.dll</Property>
