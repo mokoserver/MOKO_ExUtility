@@ -13,9 +13,9 @@
 
 ## Структура проекта
 
-- **exPythonDocs/**: Папка с Python-реализациями утилит.
+- **PythonDocs/**: Папка с Python-реализациями утилит.
   - `CSMInfo.py`: Утилита для ввода информации об испытаниях.
-- **exUtulities/**: Папка с утилитами на LabVIEW.
+- **Utulities/**: Папка с утилитами на LabVIEW.
   - `TLM/TLM.vi`: Утилита TLM.
 - **MOKO exUtility.lvproj**: Файл проекта LabVIEW для объединения и управления утилитами.
 
