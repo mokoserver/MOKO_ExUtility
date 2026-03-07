@@ -179,7 +179,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{22655988-6E90-4ACE-BA96-E1CF037E73DA}</Property>
-				<Property Name="Bld_version.build" Type="Int">24</Property>
+				<Property Name="Bld_version.build" Type="Int">25</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">IZRCSMinfo.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../exUtilityCompiled_DLL/IZRCSMinfo.dll</Property>
@@ -274,7 +274,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A7ED2FFA-2264-4BAA-A4A9-F2C94C348345}</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CSM_GNSS.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../exUtilityCompiled_DLL/CSM_GNSS.dll</Property>
@@ -372,7 +372,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3DC1A958-AE68-4890-9394-E1FF1E74F2D4}</Property>
-				<Property Name="Bld_version.build" Type="Int">25</Property>
+				<Property Name="Bld_version.build" Type="Int">26</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CSMinfo.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../exUtilityCompiled_DLL/CSMinfo.dll</Property>
@@ -465,7 +465,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{743800ED-C0F4-4647-9B50-D2A60F63A3AD}</Property>
-				<Property Name="Bld_version.build" Type="Int">26</Property>
+				<Property Name="Bld_version.build" Type="Int">27</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">exUtility.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../exUtilityCompiled_DLL/exUtility.dll</Property>
@@ -566,7 +566,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6409C906-CFAB-4E9F-94C9-6CF536953C57}</Property>
-				<Property Name="Bld_version.build" Type="Int">29</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Info.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../exUtilityCompiled_DLL/Info.dll</Property>
@@ -670,7 +670,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3C61B1AD-CD6F-47C4-8A83-B76FCC2E8B4A}</Property>
-				<Property Name="Bld_version.build" Type="Int">28</Property>
+				<Property Name="Bld_version.build" Type="Int">29</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PressureGauge.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../exUtilityCompiled_DLL/PressureGauge.dll</Property>
@@ -777,7 +777,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8A6140C6-CB39-4AAA-ABA4-76A3314E843F}</Property>
-				<Property Name="Bld_version.build" Type="Int">29</Property>
+				<Property Name="Bld_version.build" Type="Int">30</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">PressureGaugeWithSmallWindow.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../exUtilityCompiled_DLL/PressureGaugeWithSmallWindow.dll</Property>
@@ -887,7 +887,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{AB55525B-A378-4C26-8C7D-00796E20EFFE}</Property>
-				<Property Name="Bld_version.build" Type="Int">30</Property>
+				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TLM.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../exUtilityCompiled_DLL/TLM.dll</Property>
@@ -1000,7 +1000,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{58A49BC3-DC87-4918-8E18-D8BA0203F8A7}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">GermanInfo.dll</Property>
 				<Property Name="Destination[0].path" Type="Path">../exUtilityCompiled_DLL/GermanInfo.dll</Property>
