@@ -164,25 +164,25 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Info" Type="DLL">
+			<Item Name="TestInfo" Type="DLL">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{CC0FC1EB-FB93-4472-9BBE-DF8700727E46}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{F35BE943-DB61-4604-BDF2-8BFE3DA6856E}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{DD093E93-2000-4679-A0A4-2D92253EC3EB}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{368B5328-0037-4EBD-A9E3-EE1AED79BB42}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{6831A806-132C-41DE-AE45-3E8D533D1387}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Info</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{FACCB48B-5F50-4155-8EA8-8CC26B1D5AD1}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">TestInfo</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../UtilityCompiled_DLL</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{6409C906-CFAB-4E9F-94C9-6CF536953C57}</Property>
-				<Property Name="Bld_version.build" Type="Int">31</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{200A1A72-DBCB-43B0-8DB3-115D7E4F5D5F}</Property>
+				<Property Name="Bld_version.build" Type="Int">33</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Info.dll</Property>
-				<Property Name="Destination[0].path" Type="Path">../UtilityCompiled_DLL/Info.dll</Property>
+				<Property Name="Destination[0].destName" Type="Str">TestInfo.dll</Property>
+				<Property Name="Destination[0].path" Type="Path">../UtilityCompiled_DLL/TestInfo.dll</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -191,10 +191,10 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Dll_delayOSMsg" Type="Bool">true</Property>
-				<Property Name="Dll_headerGUID" Type="Str">{16607BA5-47BB-40F7-B1FD-85F24F294B84}</Property>
-				<Property Name="Dll_libGUID" Type="Str">{E927B447-C85B-46FA-9387-3B2FC62A06CB}</Property>
+				<Property Name="Dll_headerGUID" Type="Str">{1ECF0323-35FA-4984-97D7-1FE474999587}</Property>
+				<Property Name="Dll_libGUID" Type="Str">{9DE70CE6-B0BE-455C-85B7-4F144581DF41}</Property>
 				<Property Name="Dll_privateExecSys" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1CFF6EC8-9CD0-413C-A391-35C06495F0B1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9F7BCDEF-F612-4E15-9532-6B349B2A4276}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
@@ -205,14 +205,14 @@
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoOutputIdx" Type="Int">-1</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[0]VIProtoPassBy" Type="Int">0</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoDir" Type="Int">0</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoInputIdx" Type="Int">11</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoInputIdx" Type="Int">7</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoLenInput" Type="Int">-1</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoLenOutput" Type="Int">-1</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">Command</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">-1</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[1]VIProtoPassBy" Type="Int">1</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoDir" Type="Int">0</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoInputIdx" Type="Int">8</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoInputIdx" Type="Int">4</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoLenInput" Type="Int">-1</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoLenOutput" Type="Int">-1</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[2]VIProtoName" Type="Str">ErrorIn</Property>
@@ -241,19 +241,209 @@
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoName" Type="Str">len</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoOutputIdx" Type="Int">-1</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfo[5]VIProtoPassBy" Type="Int">1</Property>
-				<Property Name="Source[1].ExportedVI.VIProtoInfoCPTM" Type="Bin">'!#!!!!!!!E!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!!!"!!)*28*S&lt;X)A4X6U!!1!!!!31$$`````#&amp;*F=X"P&lt;H.F!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!%%!Q`````Q&gt;$&lt;WVN97ZE!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!%+!!!!!!%!#!</Property>
+				<Property Name="Source[1].ExportedVI.VIProtoInfoCPTM" Type="Bin">'!#!!!!!!!E!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!!!"!!)*28*S&lt;X)A4X6U!!1!!!!31$$`````#&amp;*F=X"P&lt;H.F!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!%%!Q`````Q&gt;$&lt;WVN97ZE!$Q!]!!)!!-!"!!%!!5!"A!%!!1!"Q-!!'!!!!U%!!!!!!!!!!!!!!E!!!!+!!!!!!!!!!!!!!%+!!!!!!%!#!</Property>
 				<Property Name="Source[1].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">6</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Utulities/MOKO/Info/Info.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Utulities/TestInfo/TestInfo.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">ExportedVI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">MOKO</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Info</Property>
-				<Property Name="TgtF_internalName" Type="Str">Info</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">TestInfo</Property>
+				<Property Name="TgtF_internalName" Type="Str">TestInfo</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 MOKO</Property>
-				<Property Name="TgtF_productName" Type="Str">Info</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{8CCABC31-7C6B-402E-82E1-B024C13AF93E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Info.dll</Property>
+				<Property Name="TgtF_productName" Type="Str">TestInfo</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{DF8E0056-4506-4B1C-AC95-6E605A28F226}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">TestInfo.dll</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="MokoInfo" Type="DLL">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{6D6F1AF6-9E8C-404A-9AD3-5A2B3D826BEC}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{E21E98E9-762A-4742-A2BC-FF08DC1F0B38}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{351A13A9-7A5C-46F5-B415-C66C1C2D3C88}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">MokoInfo</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../UtilityCompiled_DLL</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{EEB7CF53-1781-4D1A-AAF4-5C7E6494FAD5}</Property>
+				<Property Name="Bld_version.build" Type="Int">33</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">MokoInfo.dll</Property>
+				<Property Name="Destination[0].path" Type="Path">../UtilityCompiled_DLL/MokoInfo.dll</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../UtilityCompiled_DLL/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Dll_delayOSMsg" Type="Bool">true</Property>
+				<Property Name="Dll_headerGUID" Type="Str">{302A03AA-C118-459B-B233-E2AE142F9DF6}</Property>
+				<Property Name="Dll_libGUID" Type="Str">{5B6CF62E-7583-4918-8F57-42D7BA1CDBCD}</Property>
+				<Property Name="Dll_privateExecSys" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9F7BCDEF-F612-4E15-9532-6B349B2A4276}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Utulities/TestInfo/TestInfo.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoName" Type="Str">return value</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoPassBy" Type="Int">0</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoDir" Type="Int">0</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoInputIdx" Type="Int">11</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">Command</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoDir" Type="Int">0</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoInputIdx" Type="Int">8</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoName" Type="Str">ErrorIn</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoLenInput" Type="Int">5</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoName" Type="Str">Response</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoOutputIdx" Type="Int">3</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoName" Type="Str">ErrorOut</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoOutputIdx" Type="Int">0</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]CallingConv" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]Name" Type="Str">json</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoDir" Type="Int">3</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoName" Type="Str">len</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfoCPTM" Type="Bin">'!#!!!!!!!E!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!!!"!!)*28*S&lt;X)A4X6U!!1!!!!31$$`````#&amp;*F=X"P&lt;H.F!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!%%!Q`````Q&gt;$&lt;WVN97ZE!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!%+!!!!!!%!#!</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">6</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Utulities/MokoInfo/MokoInfo.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">ExportedVI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">MOKO</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">MokoInfo</Property>
+				<Property Name="TgtF_internalName" Type="Str">MokoInfo</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 MOKO</Property>
+				<Property Name="TgtF_productName" Type="Str">MokoInfo</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{A9F0ED5F-4992-4B50-A574-E4F898BB3DD1}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">MokoInfo.dll</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="ExUtility" Type="DLL">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{07FCCC38-164A-4973-A6B5-6E2DA799FA74}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{D0A6AA24-CDE0-4181-A8DD-6C75D91C6397}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{0C96C8EA-86F4-4F7E-9EE2-CABFAE2F1996}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">ExUtility</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../UtilityCompiled_DLL</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B6A586BB-14E7-414E-93D3-94FE68437C92}</Property>
+				<Property Name="Bld_version.build" Type="Int">33</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">ExUtility.dll</Property>
+				<Property Name="Destination[0].path" Type="Path">../UtilityCompiled_DLL/ExUtility.dll</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../UtilityCompiled_DLL/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Dll_delayOSMsg" Type="Bool">true</Property>
+				<Property Name="Dll_headerGUID" Type="Str">{1DC57BD8-C30E-45BD-B127-BE83CE3AEE5B}</Property>
+				<Property Name="Dll_libGUID" Type="Str">{BABB7F24-E600-4F69-8899-5F36F563B4F3}</Property>
+				<Property Name="Dll_privateExecSys" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9F7BCDEF-F612-4E15-9532-6B349B2A4276}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Utulities/TestInfo/TestInfo.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoName" Type="Str">return value</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[0]VIProtoPassBy" Type="Int">0</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoDir" Type="Int">0</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoInputIdx" Type="Int">11</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoName" Type="Str">Command</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[1]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoDir" Type="Int">0</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoInputIdx" Type="Int">8</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoName" Type="Str">ErrorIn</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[2]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoLenInput" Type="Int">5</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoName" Type="Str">Response</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoOutputIdx" Type="Int">3</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[3]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoDir" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoName" Type="Str">ErrorOut</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoOutputIdx" Type="Int">0</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[4]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]CallingConv" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]Name" Type="Str">json</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoDir" Type="Int">3</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoInputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoLenInput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoLenOutput" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoName" Type="Str">len</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoOutputIdx" Type="Int">-1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfo[5]VIProtoPassBy" Type="Int">1</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfoCPTM" Type="Bin">'!#!!!!!!!E!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!!!"!!)*28*S&lt;X)A4X6U!!1!!!!31$$`````#&amp;*F=X"P&lt;H.F!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!%%!Q`````Q&gt;$&lt;WVN97ZE!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!%+!!!!!!%!#!</Property>
+				<Property Name="Source[2].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">6</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Utulities/ExUtility/ExUtility.vi</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[2].type" Type="Str">ExportedVI</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">MOKO</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">ExUtility</Property>
+				<Property Name="TgtF_internalName" Type="Str">ExUtility</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 MOKO</Property>
+				<Property Name="TgtF_productName" Type="Str">ExUtility</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{56594D66-B312-4868-BB78-C5064D1A922A}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">ExUtility.dll</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
