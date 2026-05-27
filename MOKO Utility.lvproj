@@ -163,6 +163,10 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="HttpRequestHelper.dll" Type="Document" URL="../../SE/Data/HttpRequestHelper.dll"/>
+			<Item Name="IZRCSM.ctl" Type="VI" URL="../Utulities/RFTEX INFO/RFTEX/data/IZRCSM.ctl"/>
+			<Item Name="IZRCSM_string.ctl" Type="VI" URL="../Utulities/RFTEX INFO/RFTEX/data/IZRCSM_string.ctl"/>
+			<Item Name="IZRCSM_string2.ctl" Type="VI" URL="../Utulities/RFTEX INFO/RFTEX/data/IZRCSM_string2.ctl"/>
+			<Item Name="IZRCSMFormatString.vi" Type="VI" URL="../Utulities/RFTEX INFO/RFTEX/data/IZRCSMFormatString.vi"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1324,14 +1328,14 @@
 				<Property Name="TgtF_targetfileName" Type="Str">RFTEX_csm_info.dll</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RFTEX_israel_info" Type="DLL">
+			<Item Name="RFTEX_example_info" Type="DLL">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{00D121AD-D9ED-4A34-ADFB-AA1E98202586}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{E877195F-07F3-48B8-8C40-3796F21631E5}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{72BA0EAB-5F3D-42F8-8E02-75FC67539783}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">RFTEX_israel_info</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">RFTEX_example_info</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
@@ -1339,10 +1343,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A4A3AF3B-74ED-4D4E-B691-DD4F8F4D3370}</Property>
-				<Property Name="Bld_version.build" Type="Int">40</Property>
+				<Property Name="Bld_version.build" Type="Int">42</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">RFTEX_israel_info.dll</Property>
-				<Property Name="Destination[0].path" Type="Path">../UtilityCompiled_DLL/RFTEX_israel_info.dll</Property>
+				<Property Name="Destination[0].destName" Type="Str">RFTEX_example_info.dll</Property>
+				<Property Name="Destination[0].path" Type="Path">../UtilityCompiled_DLL/RFTEX_example_info.dll</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -1354,7 +1358,7 @@
 				<Property Name="Dll_headerGUID" Type="Str">{8596DF2F-CA6F-449B-AE8B-EB169FB4BF53}</Property>
 				<Property Name="Dll_libGUID" Type="Str">{9B5FE580-CE62-4DD5-998A-9B4FA1F7F336}</Property>
 				<Property Name="Dll_privateExecSys" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1AC1E166-DC71-4361-A5A7-164F3B3EE0FB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9E7DEC00-DE95-4919-9154-32979600D52B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Utulities/TestInfo/TestInfo.vi</Property>
@@ -1409,17 +1413,17 @@
 				<Property Name="Source[3].ExportedVI.VIProtoInfo[5]VIProtoPassBy" Type="Int">1</Property>
 				<Property Name="Source[3].ExportedVI.VIProtoInfoCPTM" Type="Bin">'!#!!!!!!!E!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!&amp;E"1!!-!!!!"!!)*28*S&lt;X)A4X6U!!1!!!!31$$`````#&amp;*F=X"P&lt;H.F!!!71&amp;!!!Q!!!!%!!AB&amp;=H*P=C"*&lt;A!!%%!Q`````Q&gt;$&lt;WVN97ZE!$Q!]!!)!!-!"!!%!!5!"A!%!!1!"Q-!!'!!!!U%!!!!!!!!!!!!!!E!!!!+!!!!!!!!!!!!!!%+!!!!!!%!#!</Property>
 				<Property Name="Source[3].ExportedVI.VIProtoInfoVIProtoItemCount" Type="Int">6</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Utulities/CSM ISRAEL/IZRCSM/IZRCSMinfo.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Utulities/RFTEX INFO/RFTEX/RFTEXinfo.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[3].type" Type="Str">ExportedVI</Property>
 				<Property Name="SourceCount" Type="Int">4</Property>
 				<Property Name="TgtF_companyName" Type="Str">RFTEX</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">RFTEX_israel_info</Property>
-				<Property Name="TgtF_internalName" Type="Str">RFTEX_israel_info</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">RFTEX_example_info</Property>
+				<Property Name="TgtF_internalName" Type="Str">RFTEX_example_info</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2026 RFTEX</Property>
-				<Property Name="TgtF_productName" Type="Str">RFTEX_israel_info</Property>
+				<Property Name="TgtF_productName" Type="Str">RFTEX_example_info</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A1ACA3B3-204E-4193-8D84-BD02FAC4EB80}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">RFTEX_israel_info.dll</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">RFTEX_example_info.dll</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
